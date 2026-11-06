@@ -1,0 +1,16 @@
+{
+  "model_id": "grammar-onnx-int8-small",
+  "version": "1.0.0",
+  "released_at": "2026-11-01T00:00:00Z",
+  "format": "onnx-int8",
+  "min_ram_mb": 4096,
+  "recommended_accelerators": [
+    "DirectML",
+    "CoreML",
+    "CPU-AVX2"
+  ],
+  "size_bytes": 68157440,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "descriptor-published",
+  "description": "Quantized INT8 ONNX sentence grammar evaluation model for machines with >= 4 GB RAM."
+}

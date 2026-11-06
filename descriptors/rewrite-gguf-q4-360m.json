@@ -1,0 +1,16 @@
+{
+  "model_id": "rewrite-gguf-q4-360m",
+  "version": "1.0.0",
+  "released_at": "2026-11-01T00:00:00Z",
+  "format": "gguf-q4",
+  "min_ram_mb": 16384,
+  "recommended_accelerators": [
+    "DirectML",
+    "CoreML",
+    "CPU-AVX2"
+  ],
+  "size_bytes": 241172480,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "descriptor-published",
+  "description": "4-bit GGUF local sentence rewrite and style refinement model for machines with >= 16 GB RAM and 8+ cores."
+}

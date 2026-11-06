@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "repository": "TypenApp/model-resources",
+  "ed25519_public_key_hex": "79f7c2e422116b9597ae50d9c2f9e633d2f210b89a280983b52d6bce16344f78",
+  "idle_unload_seconds": 300,
+  "pause_pill_min_idle_ms": 400,
+  "models": [
+    {
+      "model_id": "grammar-onnx-int8-small",
+      "version": "1.0.0",
+      "released_at": "2026-11-01T00:00:00Z",
+      "format": "onnx-int8",
+      "min_ram_mb": 4096,
+      "recommended_accelerators": [
+        "DirectML",
+        "CoreML",
+        "CPU-AVX2"
+      ],
+      "size_bytes": 68157440,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "descriptor-published",
+      "description": "Quantized INT8 ONNX sentence grammar evaluation model for machines with >= 4 GB RAM."
+    },
+    {
+      "model_id": "rewrite-gguf-q4-360m",
+      "version": "1.0.0",
+      "released_at": "2026-11-01T00:00:00Z",
+      "format": "gguf-q4",
+      "min_ram_mb": 16384,
+      "recommended_accelerators": [
+        "DirectML",
+        "CoreML",
+        "CPU-AVX2"
+      ],
+      "size_bytes": 241172480,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "descriptor-published",
+      "description": "4-bit GGUF local sentence rewrite and style refinement model for machines with >= 16 GB RAM and 8+ cores."
+    }
+  ]
+}
